@@ -1,0 +1,19 @@
+#INCLUDE <IOSTREAM>
+USING NAMESPACE STD;
+
+INT MAIN() {
+	INT T; CIN>>T;
+	WHILE(T--){
+	    INT A,B,C;
+	    INT AA=0,BB=0,CC=0;
+	    CIN>>A>>B>>C;
+	    IF(A>50) AA++;
+	    IF(B>50) BB++;
+	    IF(C>50) CC++;
+	    IF(AA==1) COUT<<"A"<<ENDL;
+	    IF(BB==1) COUT<<"B"<<ENDL;
+	    IF(CC==1) COUT<<"C"<<ENDL;
+	    IF(AA==0 && BB==0 && CC==0) COUT<<"NOTA"<<ENDL;
+	}
+	RETURN 0;
+}
